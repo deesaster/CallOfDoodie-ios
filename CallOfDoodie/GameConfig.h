@@ -3,7 +3,7 @@
 //  CallOfDoodie
 //
 //  Created by Denis Smirnov on 11-08-13.
-//  Copyright Deesa Studio 2011. All rights reserved.
+//  Copyright Leetr 2011. All rights reserved.
 //
 
 #ifndef __GAME_CONFIG_H

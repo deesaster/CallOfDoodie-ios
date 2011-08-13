@@ -3,7 +3,7 @@
 //  CallOfDoodie
 //
 //  Created by Denis Smirnov on 11-08-13.
-//  Copyright Deesa Studio 2011. All rights reserved.
+//  Copyright Leetr 2011. All rights reserved.
 //
 
 #import "cocos2d.h"
@@ -127,7 +127,7 @@
 }
 
 -(void) applicationDidEnterBackground:(UIApplication*)application {
-	[[CCDirector sharedDirector] stopAnimation];
+    [[CCDirector sharedDirector] stopAnimation];
 }
 
 -(void) applicationWillEnterForeground:(UIApplication*)application {
