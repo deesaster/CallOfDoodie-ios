@@ -149,6 +149,10 @@
 		923B055B13F7019400E1F7A1 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 923B055A13F7019400E1F7A1 /* RootViewController.m */; };
 		923B055E13F7019400E1F7A1 /* HelloWorldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 923B055D13F7019400E1F7A1 /* HelloWorldLayer.m */; };
 		923B056113F7019400E1F7A1 /* grossini_dance_atlas.png in Resources */ = {isa = PBXBuildFile; fileRef = 923B056013F7019400E1F7A1 /* grossini_dance_atlas.png */; };
+		923B056B13F712C200E1F7A1 /* background_level_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 923B056A13F712C200E1F7A1 /* background_level_1.png */; };
+		923B056D13F7134C00E1F7A1 /* background_paper.png in Resources */ = {isa = PBXBuildFile; fileRef = 923B056C13F7134C00E1F7A1 /* background_paper.png */; };
+		92876771140AE0A900164329 /* MainMenuScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 92876770140AE0A900164329 /* MainMenuScene.m */; };
+		92876775140AF49700164329 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 92876774140AF49700164329 /* GameScene.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -448,6 +452,12 @@
 		923B055D13F7019400E1F7A1 /* HelloWorldLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldLayer.m; sourceTree = "<group>"; };
 		923B055F13F7019400E1F7A1 /* GameConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameConfig.h; sourceTree = "<group>"; };
 		923B056013F7019400E1F7A1 /* grossini_dance_atlas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = grossini_dance_atlas.png; path = Resources/grossini_dance_atlas.png; sourceTree = "<group>"; };
+		923B056A13F712C200E1F7A1 /* background_level_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background_level_1.png; path = Resources/background_level_1.png; sourceTree = "<group>"; };
+		923B056C13F7134C00E1F7A1 /* background_paper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background_paper.png; path = Resources/background_paper.png; sourceTree = "<group>"; };
+		9287676F140AE0A900164329 /* MainMenuScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuScene.h; sourceTree = "<group>"; };
+		92876770140AE0A900164329 /* MainMenuScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuScene.m; sourceTree = "<group>"; };
+		92876773140AF49700164329 /* GameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		92876774140AF49700164329 /* GameScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -514,6 +524,10 @@
 				923B03A913F7019100E1F7A1 /* Resources */,
 				923B03BD13F7019100E1F7A1 /* libs */,
 				923B055213F7019400E1F7A1 /* Supporting Files */,
+				9287676F140AE0A900164329 /* MainMenuScene.h */,
+				92876770140AE0A900164329 /* MainMenuScene.m */,
+				92876773140AF49700164329 /* GameScene.h */,
+				92876774140AF49700164329 /* GameScene.m */,
 			);
 			path = CallOfDoodie;
 			sourceTree = "<group>";
@@ -952,6 +966,8 @@
 		923B056713F704C100E1F7A1 /* Graphics */ = {
 			isa = PBXGroup;
 			children = (
+				923B056C13F7134C00E1F7A1 /* background_paper.png */,
+				923B056A13F712C200E1F7A1 /* background_level_1.png */,
 				923B03AA13F7019100E1F7A1 /* Default.png */,
 				923B03AC13F7019100E1F7A1 /* fps_images.png */,
 				923B03AE13F7019100E1F7A1 /* Icon-72.png */,
@@ -1039,6 +1055,8 @@
 				923B03B913F7019100E1F7A1 /* Icon@2x.png in Resources */,
 				923B03BC13F7019100E1F7A1 /* iTunesArtwork in Resources */,
 				923B056113F7019400E1F7A1 /* grossini_dance_atlas.png in Resources */,
+				923B056B13F712C200E1F7A1 /* background_level_1.png in Resources */,
+				923B056D13F7134C00E1F7A1 /* background_paper.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1173,6 +1191,8 @@
 				923B055813F7019400E1F7A1 /* AppDelegate.m in Sources */,
 				923B055B13F7019400E1F7A1 /* RootViewController.m in Sources */,
 				923B055E13F7019400E1F7A1 /* HelloWorldLayer.m in Sources */,
+				92876771140AE0A900164329 /* MainMenuScene.m in Sources */,
+				92876775140AF49700164329 /* GameScene.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1268,6 +1288,7 @@
 				923B056613F7019400E1F7A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
